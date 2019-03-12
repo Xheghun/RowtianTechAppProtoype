@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.material.button.MaterialButton
+        style="@style/Widget.RTP.TextButton.Light"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/rtp_my_account" />
+
+    <com.google.android.material.button.MaterialButton
+        style="@style/Widget.RTP.TextButton.Light"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/rtp_projects" />
+
+    <com.google.android.material.button.MaterialButton
+        style="@style/Widget.RTP.TextButton.Light"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/rtp_t_amp_c" />
+
+    <view
+        android:layout_width="100dp"
+        android:layout_height="1dp"
+        android:layout_margin="10dp"
+        android:background="@color/colorPrimaryText"/>
+
+    <com.google.android.material.button.MaterialButton
+        style="@style/Widget.RTP.TextButton.Light"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/rtp_settings" />
+
+    <com.google.android.material.button.MaterialButton
+        style="@style/Widget.RTP.TextButton.Light"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/rtp_about" />
+
+</merge>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="5dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginStart="10dp"
+            android:src="@drawable/a1"
+            android:scaleType="centerCrop"
+            android:id="@+id/rtp_project_icon"
+            android:layout_width="100dp"
+            android:layout_height="80dp"/>
+        <TextView
+            android:paddingTop="10dp"
+            android:id="@+id/rtp_project_title"
+            android:layout_toEndOf="@id/rtp_project_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Project Title"
+            style="@style/Widget.RTP.TitleText"/>
+        <TextView
+            android:id="@+id/rtp_project_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/rtp_project_icon"
+            android:layout_below="@id/rtp_project_title"
+            android:text="mProject info"
+            style="@style/Widget.RTP.DescriptionText"/>
+    </RelativeLayout>
+</com.google.android.material.card.MaterialCardView>

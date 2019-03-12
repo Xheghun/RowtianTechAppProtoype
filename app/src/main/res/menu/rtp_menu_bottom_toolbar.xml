@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/rtp_setting"
+        android:title="@string/rtp_settings"
+        app:showAsAction="never"/>
+    <item
+        android:icon="@drawable/ic_search_white_24dp"
+        android:title="@string/rtp_search"
+        app:showAsAction="always"
+        android:id="@+id/rtp_search"/>
+    <item
+        android:icon="@drawable/ic_close_white_24dp"
+        android:title="@string/rtp_check_for_updates"
+        app:showAsAction="ifRoom"
+        android:id="@+id/rtp_check_for_updates"/>
+</menu>

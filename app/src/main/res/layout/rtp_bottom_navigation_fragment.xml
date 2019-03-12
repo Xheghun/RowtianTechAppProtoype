@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    android:scrollbars="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BottomNavigationFragment">
+    <FrameLayout
+        android:id="@+id/rtp_tab_layout_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"/>
+    <com.google.android.material.bottomappbar.BottomAppBar
+        app:hideOnScroll="true"
+        app:layout_scrollFlags="scroll|enterAlways"
+        style="@style/Widget.MaterialComponents.BottomAppBar.Colored"
+        app:fabAlignmentMode="end"
+        app:fabCradleRoundedCornerRadius="9dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:id="@+id/rtp_bottom_app_bar"
+        app:menu="@menu/rtp_menu_bottom_toolbar"
+        app:navigationIcon="@drawable/ic_menu_white_24dp"/>
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/contact"
+        android:visibility="gone"
+        android:backgroundTint="@color/colorSecondaryLight"
+        android:src="@drawable/ic_close_white_24dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_anchor="@id/rtp_bottom_app_bar"/>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

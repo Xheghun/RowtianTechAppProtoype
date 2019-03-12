@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rtp_tab_relative_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/rtp_tab_layout"
+        style="@style/Widget.MaterialComponents.TabLayout.Colored"
+        app:tabGravity="center"
+        app:tabIndicatorColor="@color/colorPrimaryText"
+        app:tabIndicatorHeight="4dp"
+        app:tabMode="fixed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorPrimary"
+        android:minHeight="?actionBarSize"/>
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/rtp_view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rtp_tab_layout" />
+</RelativeLayout>

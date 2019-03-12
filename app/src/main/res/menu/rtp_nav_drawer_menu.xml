@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="none">
+        <item
+            android:id="@+id/rtp_account"
+            android:title="Account"/>
+        <item
+            android:id="@+id/rtp_join_us"
+            android:title="Join Us"/>
+        <item
+            android:id="@+id/rtp_test"
+            android:title="Test"/>
+        <item
+            android:id="@+id/rtp_accountt"
+            android:title="Account"/>
+        <item
+            android:id="@+id/rtp_join_ust"
+            android:title="Join Us"/>
+        <item
+            android:id="@+id/rtp_testt"
+            android:title="Test"/>
+        <item
+            android:id="@+id/rtp_accounttt"
+            android:title="Account"/>
+        <item
+            android:id="@+id/rtp_join_ustt"
+            android:title="Join Us"/>
+        <item
+            android:id="@+id/rtp_testtt"
+            android:title="Test"/>
+        <item
+            android:id="@+id/rtp_accoutnt"
+            android:title="Account"/>
+        <item
+            android:id="@+id/rtp_join_uts"
+            android:title="Join Us"/>
+        <item
+            android:id="@+id/rtp_tetst"
+            android:title="Test"/>
+    </group>
+</menu>
